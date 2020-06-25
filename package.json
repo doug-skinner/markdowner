@@ -1,0 +1,33 @@
+{
+  "name": "markdowner",
+  "version": "0.0.1",
+  "description": "A simple command line tool to download a website as markdown",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/doug-skinner/markdowner.git"
+  },
+  "bin": {
+    "markdowner": "./src/index.js"
+  },
+  "devDependencies": {
+    "eslint": "^7.2.0"
+  },
+  "dependencies": {
+    "axios": "^0.19.2",
+    "commander": "^5.1.0",
+    "turndown": "^6.0.0",
+    "turndown-plugin-gfm": "^1.0.2",
+    "winston": "^3.2.1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/doug-skinner/markdowner/issues"
+  },
+  "homepage": "https://github.com/doug-skinner/markdowner#readme"
+}
