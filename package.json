@@ -18,6 +18,7 @@
   },
   "dependencies": {
     "axios": "^0.19.2",
+    "clipboardy": "^2.3.0",
     "commander": "^5.1.0",
     "turndown": "^6.0.0",
     "turndown-plugin-gfm": "^1.0.2",
