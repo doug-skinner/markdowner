@@ -2,10 +2,11 @@
 'use strict'
 const axios = require('axios')
 const { Command } = require('commander')
+const clipboardy = require('clipboardy');
 const TurndownService = require('turndown')
 const turndownPluginGfm = require('turndown-plugin-gfm')
 const gfm = turndownPluginGfm.gfm
-const logger = require('../logger')
+const logger = require('./utils/logger')
 
 // Turndown setup
 
@@ -15,11 +16,12 @@ const turndown = new TurndownService({ headingStyle: 'atx', codeBlockStyle: 'fen
 const program = new Command()
 program.version('0.1.0')
 
-program.option('-u, --url <url>', 'the url to process').option('-d, --debug', 'print out extra information')
+program.option('-u, --url <url>', 'the url to process').option('-d, --debug', 'print out extra information').option('-c, --clipboard', 'Pass information to clipboard', false)
 
 program.parse(process.argv)
 
 const main = async () => {
+    const {debug, url,clipboard } = program 
     if (program.debug) {
         logger.setLogLevel('debug')
     }
@@ -54,7 +56,9 @@ const main = async () => {
         // eslint-disable-next-line no-process-exit
         process.exit(1)
     }
-
+    if(clipboard){
+        clipboardy.writeSync(markdown)
+    }
     // eslint-disable-next-line no-console
     console.log(markdown)
 }
