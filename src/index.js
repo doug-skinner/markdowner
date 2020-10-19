@@ -21,23 +21,23 @@ program.option('-u, --url <url>', 'the url to process').option('-d, --debug', 'p
 program.parse(process.argv)
 
 const main = async () => {
-    const {debug, url,clipboard } = program 
-    if (program.debug) {
+    const {debug, url, clipboard } = program 
+    if (debug) {
         logger.setLogLevel('debug')
     }
 
-    if (!program.url) {
+    if (!url) {
         logger.error('please specify a url')
         // eslint-disable-next-line no-process-exit
         process.exit(1)
     }
 
-    logger.debug('url specified', { url: program.url })
-    logger.debug('making request to fetch webpage with included url', { url: program.url })
+    logger.debug('url specified', { url })
+    logger.debug('making request to fetch webpage with included url', { url })
 
     let data = ''
     try {
-        const response = await axios.get(program.url)
+        const response = await axios.get(url)
         data = response.data
     } catch (error) {
         logger.error('there was an error fetching the webpage', { error })
