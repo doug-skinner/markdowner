@@ -4,6 +4,7 @@
   "description": "A simple command line tool to download a website as markdown",
   "main": "index.js",
   "scripts": {
+    "publish": "npm publish --access public",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
