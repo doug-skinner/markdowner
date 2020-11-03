@@ -56,11 +56,13 @@ const main = async () => {
 		// eslint-disable-next-line no-process-exit
 		process.exit(1)
 	}
-	if(clipboard){
+    
+	if (clipboard) {
 		clipboardy.writeSync(markdown)
+	} else {
+		logger.log(markdown)
 	}
-	// eslint-disable-next-line no-console
-	console.log(markdown)
+
 }
 
 main()

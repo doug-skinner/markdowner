@@ -1,5 +1,9 @@
 # Release Notes
 
+## V0.3.3
+
+Fixed a bug where the markdown was still being output to the console even if you passed in the clipboard flag.
+
 ## V0.3.2
 
 Setup eslint within the project to enforce specific code formatting.
