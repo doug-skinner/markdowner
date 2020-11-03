@@ -1,8 +1,12 @@
 # Release Notes
 
+## V0.3.2
+
+Setup eslint within the project to enforce specific code formatting.
+
 ## V0.3.1
 
-Updated the example download command in the readme, and 
+Updated the example download command in the readme.
 
 ## V0.3.0
 
