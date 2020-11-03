@@ -1,5 +1,9 @@
 # Release Notes
 
+## V0.2.2
+
+Added an npm run command to publish this package.
+
 ## V0.2.1
 
 Added this release notes file to keep track of when various features were added.
