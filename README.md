@@ -7,7 +7,7 @@ A simple command line tool that allows you to download a website as markdown.
 Getting up and running with this tool is very easy. To install the tool and us it to download a specific website and print it out to the console, you can run the following:
 
 ```bash
-npm i -g markdowner
+npm i -g @dougskinner/markdowner
 markdowner -u https://google.com
 ```
 

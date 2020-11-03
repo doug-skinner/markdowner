@@ -1,5 +1,9 @@
 # Release Notes
 
+## V0.3.1
+
+Updated the example download command in the readme, and 
+
 ## V0.3.0
 
 Removed the below command as it wasn't working appropriately.

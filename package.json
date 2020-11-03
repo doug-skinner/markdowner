@@ -25,7 +25,7 @@
     "winston": "^3.2.1"
   },
   "keywords": [],
-  "author": "",
+  "author": "Doug Skinner <dskinne12@gmail.com>",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/doug-skinner/markdowner/issues"
