@@ -1,5 +1,9 @@
 # Release Notes
 
+## V0.3.0
+
+Removed the below command as it wasn't working appropriately.
+
 ## V0.2.2
 
 Added an npm run command to publish this package.
