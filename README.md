@@ -15,22 +15,16 @@ markdowner -u https://google.com
 
 ### Commandline flags
 
-There are three flags that can be passed into the application.
+The following are a list of all flags that can or must be passed into the application.
+
+| Long Flag   | Short Flag | Mandatory | Description                                                                                                          |
+|-------------|------------|-----------|----------------------------------------------------------------------------------------------------------------------|
+| --url <url> | -u <url>   | Yes       | The url of the website that should be converted into markdown.                                                       |
+| --debug     | -d         | No        | Used if you want the application to print extra information. This shouldn't need to be used in normal circumstances. |
+| --clipboard | -c         | No        | Passes the markdown from the downloaded website into the system clipboard rather than standard out.                  |
 
 ## How to contribute
 
-### How to submit issues
+There are many ways that this repository can be contributed to! The easiest way is to [submit issues](https://github.com/doug-skinner/markdowner/issues) to this repository noting bugs that it may have.
 
-### How to work on issues
-
-### How to work with the project locally
-
-#### Installation
-
-#### Development
-
-#### Testing
-
-## Contributers
-
-## Code of Conduct
+Another way to help work on this repository is to comment on one of the already existing issues and start working on it. If there's something that sounds good to be implemented, but there just hasn't been time for me to do it yet, feel free to start working on it. I would just ask that you tag me in a comment first, to make sure those no duplication of effort going on.
