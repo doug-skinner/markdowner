@@ -1,10 +1,10 @@
 {
     "name": "@dougskinner/markdowner",
-    "version": "0.3.1",
+    "version": "0.3.2",
     "description": "A simple command line tool to download a website as markdown",
     "main": "index.js",
     "scripts": {
-        "lint": "eslint src --fix",  
+        "lint": "eslint src --fix",
         "test": "echo \"Error: no test specified\" && exit 1"
     },
     "repository": {
