@@ -1,6 +1,6 @@
 {
   "name": "@dougskinner/markdowner",
-  "version": "0.2.2",
+  "version": "0.3.0",
   "description": "A simple command line tool to download a website as markdown",
   "main": "index.js",
   "scripts": {
