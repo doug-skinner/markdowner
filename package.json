@@ -1,6 +1,6 @@
 {
   "name": "markdowner",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "A simple command line tool to download a website as markdown",
   "main": "index.js",
   "scripts": {
@@ -11,7 +11,7 @@
     "url": "git+https://github.com/doug-skinner/markdowner.git"
   },
   "bin": {
-    "markdowner": "./src/index.js"
+    "markdowner": "src/index.js"
   },
   "devDependencies": {
     "eslint": "^7.2.0"
